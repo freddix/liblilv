@@ -1,15 +1,15 @@
 Summary:	Library to use with LV2 plugins
 Name:		liblilv
-Version:	0.14.4
-Release:	2
+Version:	0.16.0
+Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://download.drobilla.net/lilv-%{version}.tar.bz2
-# Source0-md5:	891595410eeb68322cf875286f96fccf
+# Source0-md5:	12eb71f2b5b8a68e15c1c816896bcb9f
 BuildRequires:	glib-devel
 BuildRequires:	jack-devel
-BuildRequires:	libsord-devel >= 0.10.0
-BuildRequires:	libsratom-devel >= 0.4.0
+BuildRequires:	libsord-devel >= 0.12.0
+BuildRequires:	libsratom-devel >= 0.4.2
 BuildRequires:	lv2-devel
 BuildRequires:	pkg-config
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
